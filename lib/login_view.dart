@@ -5,8 +5,52 @@ class LoginView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: ,
+    return const Scaffold(
+      body: SafeArea(
+          child: Column(
+        children: [
+          ListTile(
+            tileColor: Colors.lightGreen,
+            leading: CircleAvatar(
+              backgroundColor: Colors.white,
+              radius: 25,
+            ),
+            title: Text("Uzain sheikh"),
+            subtitle: Text("mai a raha hu"),
+            trailing: Text("9:00 am"),
+          ),
+          ListTile(
+            tileColor: Colors.lightGreen,
+            leading: CircleAvatar(
+              backgroundColor: Colors.white,
+              radius: 25,
+            ),
+            title: Text("Uzain sheikh"),
+            subtitle: Text("mai a raha hu"),
+            trailing: Text("9:00 am"),
+          ),
+          ListTile(
+            tileColor: Colors.lightGreen,
+            leading: CircleAvatar(
+              backgroundColor: Colors.white,
+              radius: 25,
+            ),
+            title: Text("Uzain sheikh"),
+            subtitle: Text("mai a raha hu"),
+            trailing: Text("9:00 am"),
+          ),
+          ListTile(
+            tileColor: Colors.lightGreen,
+            leading: CircleAvatar(
+              backgroundColor: Colors.white,
+              radius: 25,
+            ),
+            title: Text("Uzain sheikh"),
+            subtitle: Text("mai a raha hu"),
+            trailing: Text("9:00 am"),
+          )
+        ],
+      )),
       // appBar: AppBar(
       //   backgroundColor: Colors.green,
       //   title: const Text("data"),
