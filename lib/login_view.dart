@@ -44,7 +44,73 @@ class LoginView extends StatelessWidget {
           
         ],
       ),
-      
+      // body: SingleChildScrollView(
+      //   scrollDirection: Axis.horizontal,
+      //   child: Row(
+      //     children: [
+      //       Container(
+      //         color: Colors.yellow,
+      //         height: 100,
+      //         width: 100,
+      //         child: Text("Hello"),
+      //       ),
+      //       Container(
+      //         color: Colors.red,
+      //         height: 100,
+      //         width: 100,
+      //         child: Text("Hello"),
+      //       ),
+      //       Container(
+      //         color: Colors.yellow,
+      //         height: 100,
+      //         width: 100,
+      //         child: Text("Hello"),
+      //       ),
+      //       Container(
+      //         color: Colors.red,
+      //         height: 100,
+      //         width: 100,
+      //         child: Text("Hello"),
+      //       ),
+      //       Container(
+      //         color: Colors.yellow,
+      //         height: 100,
+      //         width: 100,
+      //         child: Text("Hello"),
+      //       ),
+      //       Container(
+      //         color: Colors.red,
+      //         height: 100,
+      //         width: 100,
+      //         child: Text("Hello"),
+      //       ),
+      //       Container(
+      //         color: Colors.yellow,
+      //         height: 100,
+      //         width: 100,
+      //         child: Text("Hello"),
+      //       ),
+      //       Container(
+      //         color: Colors.red,
+      //         height: 100,
+      //         width: 100,
+      //         child: Text("Hello"),
+      //       ),
+      //       Container(
+      //         color: Colors.yellow,
+      //         height: 100,
+      //         width: 100,
+      //         child: Text("Hello"),
+      //       ),
+      //       Container(
+      //         color: Colors.red,
+      //         height: 100,
+      //         width: 100,
+      //         child: Text("Hello"),
+      //       ),
+      //     ],
+      //   ),
+      // ),
     );
   }
 }
