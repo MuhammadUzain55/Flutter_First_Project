@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_first_project/Widgets/custom_chat_tile.dart';
 
 class LoginView extends StatelessWidget {
   const LoginView({super.key});
@@ -9,7 +10,10 @@ class LoginView extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            
+            CustomChatTile(),
+            CustomChatTile(),
+            CustomChatTile(),
+            CustomChatTile()
           ],
         ),
       ),

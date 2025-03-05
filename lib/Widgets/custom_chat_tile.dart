@@ -5,15 +5,18 @@ class CustomChatTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const ListTile(
-      tileColor: Colors.lightGreen,
-      leading: CircleAvatar(
-        backgroundColor: Colors.white,
-        radius: 25,
-      ),
-      title: Text("Uzain sheikh"),
-      subtitle: Text("mai a raha hu"),
-      trailing: Text("9:00 am"),
+    return const Column(
+      children: [ListTile(
+        tileColor: Colors.lightGreen,
+        leading: CircleAvatar(
+          backgroundColor: Colors.white,
+          radius: 25,
+        ),
+        title: Text("Uzain sheikh"),
+        subtitle: Text("mai a raha hu"),
+        trailing: Text("9:00 am"),
+      ),],
+      
     );
   }
 }
