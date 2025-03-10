@@ -5,8 +5,9 @@ class CustomChatTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
-      children: [ListTile(
+    return Container(
+      margin: const EdgeInsets.only(bottom: 2),
+      child: const ListTile(
         tileColor: Colors.lightGreen,
         leading: CircleAvatar(
           backgroundColor: Colors.white,
@@ -15,8 +16,7 @@ class CustomChatTile extends StatelessWidget {
         title: Text("Uzain sheikh"),
         subtitle: Text("mai a raha hu"),
         trailing: Text("9:00 am"),
-      ),],
-      
+      ),
     );
   }
 }

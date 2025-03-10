@@ -13,6 +13,9 @@ class LoginView extends StatelessWidget {
             CustomChatTile(),
             CustomChatTile(),
             CustomChatTile(),
+            CustomChatTile(),
+            CustomChatTile(),
+            CustomChatTile(),
             CustomChatTile()
           ],
         ),
