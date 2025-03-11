@@ -10,13 +10,34 @@ class LoginView extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            CustomChatTile(),
-            CustomChatTile(),
-            CustomChatTile(),
-            CustomChatTile(),
-            CustomChatTile(),
-            CustomChatTile(),
-            CustomChatTile()
+            CustomChatTile(
+              name: "Uzain",
+              message: "kaha ho",
+            ),
+            CustomChatTile(
+              name: "Uzain",
+              message: "kaha ho",
+            ),
+            CustomChatTile(
+              name: "Uzain",
+              message: "kaha ho",
+            ),
+            CustomChatTile(
+              name: "Uzain",
+              message: "kaha ho",
+            ),
+            CustomChatTile(
+              name: "Uzain",
+              message: "kaha ho",
+            ),
+            CustomChatTile(
+              name: "Uzain",
+              message: "kaha ho",
+            ),
+            CustomChatTile(
+              name: "Uzain",
+              message: "kaha ho",
+            )
           ],
         ),
       ),
