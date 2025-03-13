@@ -13,6 +13,7 @@ class LoginView extends StatelessWidget {
             CustomChatTile(
               name: "Uzain",
               message: "kaha ho",
+              time: "09:00 AM",
             ),
             CustomChatTile(
               name: "Uzain",
